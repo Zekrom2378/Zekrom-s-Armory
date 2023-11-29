@@ -1,8 +1,6 @@
 package zekroms.armory;
 
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.common.Mod.EventHandler;
-import net.minecraftforge.fml.common.Mod.Instance;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -14,10 +12,10 @@ import zekroms.armory.proxy.CommonProxy;
 
 
 @Mod(modid = Reference.MODID, name = Reference.NAME, version = Reference.VERSION)
-public class Main
+public class ZArmory
 {
     @Mod.Instance()
-    public static Main instance;
+    public static ZArmory instance;
 
     public static Logger logger;
 
