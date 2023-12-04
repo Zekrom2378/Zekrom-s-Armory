@@ -2,7 +2,8 @@
     "textures": {
         "layer0": "zarmory:items/greatsword/handle",
         "layer1": "zarmory:items/greatsword/head",
-        "layer3": "zarmory:items/greatsword/guard",
+        "layer2": "zarmory:items/greatsword/guard",
+
         "broken1": "zarmory:items/greatsword/broken_head"
     },
     "display": {
