@@ -10,6 +10,7 @@ import slimeknights.tconstruct.library.Util;
 import slimeknights.tconstruct.library.tools.ToolCore;
 import slimeknights.tconstruct.tools.AbstractToolPulse;
 import slimeknights.tconstruct.tools.TinkerTools;
+import slimeknights.tconstruct.tools.melee.TinkerMeleeWeapons;
 import zekroms.armory.weapons.melee.GreatSword;
 import zekroms.armory.proxy.CommonProxy;
 
@@ -20,9 +21,10 @@ import zekroms.armory.proxy.CommonProxy;
         forced = true)
 
 
-public class ArmoryMeleeWeapons extends AbstractToolPulse {
+public class ArmoryMeleeWeapons extends TinkerMeleeWeapons {
     public static final String PulseId = "ArmoryMeleeWeapons";
     static final Logger log = Util.getLogger(PulseId);
+
 
     public static slimeknights.tconstruct.common.CommonProxy proxy;
 
