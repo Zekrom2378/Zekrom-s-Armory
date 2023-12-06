@@ -1,0 +1,50 @@
+{
+  "modifiers.whisper.kill":
+  {
+    "category": "weapon",
+    "subtitle": "modifier.whispers.kill",
+    "sounds": [{"name":  "za:modifier/whispering/kill", "stream":  true}]
+  },
+  "modifiers.whisper.steal":
+  {
+    "category": "weapon",
+    "subtitle": "modifier.whispers.steal",
+    "sounds": [{"name":  "za:modifier/whispering/steal", "stream":  true}]
+  },
+  "modifiers.whisper.gibberish":
+  {
+    "category": "weapon",
+    "subtitle": "modifier.whispers.gibberish",
+    "sounds": [{"name":  "za:modifier/whispering/gibberish", "stream":  true}]
+  },
+  "modifiers.whisper.gibberish1":
+  {
+    "category": "weapon",
+    "subtitle": "modifier.whispers.gibberish1",
+    "sounds": [{"name":  "za:modifier/whispering/gibberish1", "stream":  true}]
+  },
+  "modifiers.whisper.gibberish2":
+  {
+    "category": "weapon",
+    "subtitle": "modifier.whispers.gibberish2",
+    "sounds": [{"name":  "za:modifier/whispering/gibberish2", "stream":  true}]
+  },
+  "modifiers.whisper.gibberish3":
+  {
+    "category": "weapon",
+    "subtitle": "modifier.whispers.gibberish3",
+    "sounds": [{"name":  "za:modifier/whispering/gibberish3", "stream":  true}]
+  },
+  "modifiers.whisper.gibberish4":
+  {
+    "category": "weapon",
+    "subtitle": "modifier.whispers.gibberish4",
+    "sounds": [{"name":  "za:modifier/whispering/gibberish4", "stream":  true}]
+  },
+  "modifiers.whisper.run":
+  {
+    "category": "weapon",
+    "subtitle": "modifier.whispers.run",
+    "sounds": [{"name":  "za:modifier/whispering/run", "stream":  true}]
+  }
+}

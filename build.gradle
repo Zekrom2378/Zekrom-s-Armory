@@ -1,6 +1,6 @@
 buildscript {
     repositories {
-        maven {url = 'https://maven.minecraftforge.net/'}
+        maven { url = 'https://maven.minecraftforge.net/' }
 
         mavenCentral()
     }
@@ -10,6 +10,13 @@ buildscript {
 
     }
 }
+
+
+        
+apply plugin: 'net.minecraftforge.gradle'
+// Only edit below this line, the above code adds and enables the necessary things for Forge to be setup.
+//apply plugin: 'eclipse'
+apply plugin: 'maven-publish'
 
 repositories{
     maven {
@@ -21,13 +28,8 @@ repositories{
         url 'https://maven.minecraftforge.net/'
     }
 }
-        
-apply plugin: 'net.minecraftforge.gradle'
-// Only edit below this line, the above code adds and enables the necessary things for Forge to be setup.
-apply plugin: 'eclipse'
-apply plugin: 'maven-publish'
 
-version = '1.12.2-0.11'
+version = '1.12.2-0.15'
 group = 'com.yourname.modid' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'ZArmory'
 
@@ -44,7 +46,7 @@ minecraft {
     // makeObfSourceJar = false // an Srg named sources jar is made by default. uncomment this to disable.
     
     // accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg')
-
+    accessTransformer = file('src/main/resources/META-INF/zarm_at.cfg')
     // Default run configurations.
     // These can be tweaked, removed, or duplicated as needed.
     runs {
@@ -73,10 +75,9 @@ dependencies {
     // Specify the version of Minecraft to use, If this is any group other then 'net.minecraft' it is assumed
     // that the dep is a ForgeGradle 'patcher' dependency. And it's patches will be applied.
     // The userdev artifact is a special name and will get all sorts of transformations applied to it.
-//    ////deobfCompile "slimeknights.mantle:Mantle:${config.minecraft_version_short}-${config.mantle_version}"
-//    implementation('N:\\Minecraft Modding Stuff\\Zek\'s Armory\\libs\\TConstruct-1.12.2-2.13.0.183.jar')
-//    implementation('N:\\Minecraft Modding Stuff\\Zek\'s Armory\\libs\\Mantle-1.12-1.3.3.55.jar')
+
     minecraft 'net.minecraftforge:forge:1.12.2-14.23.5.2860'
+
     // You may put jars on which you depend on in ./libs or you may define them like so..
     // compile "some.group:artifact:version:classifier"
     // compile "some.group:artifact:version"
@@ -87,16 +88,12 @@ dependencies {
 
     // The 'provided' configuration is for optional dependencies that exist at compile-time but might not at runtime.
     // provided 'com.mod-buildcraft:buildcraft:6.0.8:dev'
-    ///compile "slimeknights.mantle:Mantle:1.12-1.33.3.55"
-    ///compile "slimeknights:TConstruct:1.12.2-2.13.0.183"
-    // These dependencies get remapped to your current MCP mappings
-    // deobf 'com.mod-buildcraft:buildcraft:6.0.8:dev'
-    ///deobf "slimeknights.mantle:Mantle:${version}"
-    ///deobf "slimeknights:TConstruct:${version}"
-    compile files('libs/TConstruct-1.12.2-2.13.0.183.jar')
-    compile files('libs/Mantle-1.12-1.3.3.55.jar')
+
     deobf files('libs/TConstruct-1.12.2-2.13.0.183.jar')
     deobf files('libs/Mantle-1.12-1.3.3.55.jar')
+    compile files('libs/TConstruct-1.12.2-2.13.0.183.jar')
+    compile files('libs/Mantle-1.12-1.3.3.55.jar')
+
 
     // For more info...
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html

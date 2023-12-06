@@ -1,5 +1,5 @@
 package zekroms.armory.util;
 
-public interface ModelInterface {
+public interface IHasModel {
     public void registerModels();
 }

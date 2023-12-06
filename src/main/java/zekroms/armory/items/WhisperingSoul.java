@@ -9,5 +9,4 @@ public class WhisperingSoul extends Item {
         this.setMaxStackSize(16);
 
     }
-
 }
