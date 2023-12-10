@@ -1,0 +1,50 @@
+{
+  "modifiers.whisper.kill":
+  {
+    "category": "ambient",
+    "subtitle": "modifiers.whispers.kill",
+    "sounds": [{"name":  "za:modifiers/whispering/kill", "stream":  true}]
+  },
+  "modifiers.whisper.steal":
+  {
+    "category": "ambient",
+    "subtitle": "modifiers.whispers.steal",
+    "sounds": [{"name":  "za:modifiers/whispering/steal", "stream":  true}]
+  },
+  "modifiers.whisper.gibberish":
+  {
+    "category": "ambient",
+    "subtitle": "modifiers.whispers.gibberish",
+    "sounds": [{"name":  "za:modifiers/whispering/gibberish", "stream":  true}]
+  },
+  "modifiers.whisper.gibberish1":
+  {
+    "category": "ambient",
+    "subtitle": "modifiers.whispers.gibberish1",
+    "sounds": [{"name":  "za:modifiers/whispering/gibberish1", "stream":  true}]
+  },
+  "modifiers.whisper.gibberish2":
+  {
+    "category": "ambient",
+    "subtitle": "modifiers.whispers.gibberish2",
+    "sounds": [{"name":  "za:modifiers/whispering/gibberish2", "stream":  true}]
+  },
+  "modifiers.whisper.gibberish3":
+  {
+    "category": "ambient",
+    "subtitle": "modifiers.whispers.gibberish3",
+    "sounds": [{"name":  "za:modifiers/whispering/gibberish3", "stream":  true}]
+  },
+  "modifiers.whisper.gibberish4":
+  {
+    "category": "ambient",
+    "subtitle": "modifiers.whispers.gibberish4",
+    "sounds": [{"name":  "za:modifiers/whispering/gibberish4", "stream":  true}]
+  },
+  "modifiers.whisper.run":
+  {
+    "category": "ambient",
+    "subtitle": "modifiers.whispers.run",
+    "sounds": [{"name":  "za:modifiers/whispering/run", "stream":  true}]
+  }
+}
