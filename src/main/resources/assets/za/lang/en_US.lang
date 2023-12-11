@@ -1,7 +1,8 @@
 itemGroup.Zekrom's Armory=Zekrom's Armory
+itemGroup.tabZeksArmory=Zekrom's Armory
 
 
 item.whispering_soul.name=Whispering Soul
-item.tconstruct.greatsword.name=Greatsword
+item.za.greatsword.name=Greatsword
 modifier.whispering.name=Whispering
 modifier.whispering.desc=§oDid you hear something?

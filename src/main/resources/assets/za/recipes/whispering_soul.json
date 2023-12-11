@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+
+    "pattern":
+    [
+        "B",
+        "A"
+    ],
+
+    "key":
+    {
+        "B":
+        {
+            "item": "minecraft:ghast_tear"
+        },
+        "A":
+        {
+            "item": "minecraft:soul_sand"
+        }
+    },
+
+    "result":
+    {
+        "item": "za:whispering_soul"
+    }
+
+}

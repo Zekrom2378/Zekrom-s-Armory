@@ -9,4 +9,5 @@ public class ItemInit {
     public static final List<Item> ZITEMS = new ArrayList<Item>();
 
     public static final Item WHISPERING_SOUL = new ItemBase("whispering_soul");
+
 }

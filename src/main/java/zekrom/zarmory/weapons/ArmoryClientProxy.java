@@ -10,6 +10,10 @@ public class ArmoryClientProxy extends ClientProxy {
     @SubscribeEvent
     protected void registerModels(ModelRegistryEvent event){
         ModelRegisterUtil.registerToolModel(ArmoryPlugin.greatSword);
+        ModelRegisterUtil.registerToolModel(ArmoryPlugin.rifle);
+        ModelRegisterUtil.registerPartModel(ArmoryPlugin.fireGroup);
+        ModelRegisterUtil.registerPartModel(ArmoryPlugin.barrel);
+        ModelRegisterUtil.registerPartModel(ArmoryPlugin.stock);
 
         MinecraftForge.EVENT_BUS.register(this);
     }
